@@ -6,8 +6,6 @@ main {
   min-height: 100vh;
   height: 100dvh;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .box {
@@ -19,6 +17,7 @@ main {
   justify-content: center;
   border-radius: 2px;
   box-shadow: 0 4px 10px 5px rgb(0 0 0 / 20%);
+  margin: auto;
 }
 
 .cards-container {
