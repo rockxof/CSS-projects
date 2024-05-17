@@ -6,6 +6,7 @@ main {
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  align-items: center;
   background-color: white;
 }
 
@@ -16,7 +17,6 @@ main {
   display: flex;
   align-items: center;
   justify-content: center;
-  align-self: center;
   border-radius: 2px;
   box-shadow: 0 4px 10px 5px rgb(0 0 0 / 20%);
 }
