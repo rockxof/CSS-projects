@@ -6,19 +6,18 @@ main {
   min-height: 100vh;
   height: 100dvh;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
 .box {
   background-color: white;
   width: 95%;
-  padding-block: 25rem;
+  min-height: 70%;
   display: flex;
   align-items: center;
   justify-content: center;
   border-radius: 2px;
   box-shadow: 0 4px 10px 5px rgb(0 0 0 / 20%);
+  margin: auto;
 }
 
 .cards-container {
@@ -105,6 +104,10 @@ a {
 }
 
 @media (width < 868px) {
+  .box{
+    height: 100vh;
+    width: 100vw;
+  }
   .cards-container {
     flex-wrap: wrap;
     max-width: 375px;
