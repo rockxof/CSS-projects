@@ -106,8 +106,10 @@ a {
 @media (width < 868px) {
   .box{
     box-shadow: none;
+    min-height: unset;
   }
   .cards-container {
+    margin-block: 10rem;
     flex-wrap: wrap;
     max-width: 375px;
   }
