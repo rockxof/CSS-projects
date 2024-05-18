@@ -105,8 +105,7 @@ a {
 
 @media (width < 868px) {
   .box{
-    height: 100vh;
-    width: 100vw;
+    box-shadow: none;
   }
   .cards-container {
     flex-wrap: wrap;
