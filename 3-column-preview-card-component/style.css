@@ -109,7 +109,7 @@ a {
     min-height: unset;
   }
   .cards-container {
-    margin-block: 10rem;
+    margin-block: 2rem;
     flex-wrap: wrap;
     max-width: 375px;
   }
